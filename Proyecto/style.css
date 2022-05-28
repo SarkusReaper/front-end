@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.ctn-all {
+    background-color: black;
+    height: 200px;
+}
+
+.ctn-all-header {
+    color: white;
+    display: flex;
+}
+
+.ctn-titulo-slogan {
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    height: 150px;
+}    
+
+.ctn-titulo-slogan h2 {
+    padding-top: 2%;
+}
+
+.ctn-logo {
+    float: left;
+    position:absolute;
+    right: 0;
+    margin: 10px 5%;
+    padding: 1% 1%;
+}
+
+.ctn-logo img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Main */
+
+main {
+    background-color: blanchedalmond;
+}
+
+.ctn-all-articles {
+    margin: 0 auto;
+    display: block;
+    width: 1000px;
+}
+
+.ctn-art1-art2 {
+    display: flex;
+}
+
+.art1 {
+    width: 60%;
+}
+
+.art1 p {
+    padding-top: 20px;
+}
+
+.art2 {
+    width: 40%;
+    border-left: 0px;
+    background-color: aquamarine;
+}
+
+.art3 {
+    border-top: 0;
+}
+
+.art3 p {
+    padding-top: 20px;
+}
+
+
+.art1, .art2, .art3 {
+    border-style: dotted;
+    padding: 25px 10px;
+
+}
+
+
+/* Footer */
+
+.ctn-footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+
+footer {
+    margin: auto;
+}
